@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700");
+
+body {
+    padding: 20px;
+    background-color: #121212;
+}
+
+.chat-list {
+    overflow-y: scroll;
+    height: 700px;
+    padding: 0;
+}
+
+.chat-list::-webkit-scrollbar {
+    display: none;
+}
+
+.message {
+    list-style: none;
+}
+
+.message img {
+    padding: 10px;
+}
